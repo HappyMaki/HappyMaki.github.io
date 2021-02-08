@@ -14,10 +14,7 @@ redirect_from:
 <!--author-->
 
 ## What We're doing
-NoWhere-Know-How Games is exploring multiple spaces within game development trying to find what gets them excited. 
-
-## Who we are
-We are a group of developers with over 15 years in the industry of software engineering. We are looking to bring our expertise to the Unity landscape.
+Brandon Ling is a developer focused on creating memorable experiences.
 
 
 [blog]: /
