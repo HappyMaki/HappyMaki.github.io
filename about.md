@@ -14,7 +14,7 @@ redirect_from:
 <!--author-->
 
 ## What We're doing
-Brandon Ling is a developer focused on creating memorable experiences.
+Happy Maki is a solo developer focused on creating memorable experiences.
 
 
 [blog]: /
