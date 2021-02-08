@@ -1,8 +1,8 @@
 accent_color: rgb(79,177,186)
 accent_image: /assets/img/sidebar-bg.jpg
 author:
-  email: nwkhteam@gmail.com
-  name: NoWhere Know-How
+  email: brandonlingatl@gmail.com
+  name: Happy Maki Games
 collections:
   featured_categories:
     output: true
@@ -54,7 +54,7 @@ defaults:
   values:
     seo:
       type: WebPage
-description: 'This is blog for that serves new content developed by the NoWhere-Know-How
+description: 'This is blog for that serves new content developed by the Brandon Ling
   team.
 
   '
@@ -181,10 +181,10 @@ relative_links:
 remote_theme: hydecorp/hydejack@v9.0.0-rc.6
 sass:
   style: compressed
-tagline: NanoWattKiloHertz
+tagline: Early Access
 theme: jekyll-theme-hydejack
 theme_color: rgb(8,46,57)
-title: NoWhere-Know-How Games
+title: HappyMaki
 titles_from_headings:
   collections: true
   strip_title: true
