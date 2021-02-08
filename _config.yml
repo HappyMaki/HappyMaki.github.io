@@ -1,0 +1,190 @@
+accent_color: rgb(79,177,186)
+accent_image: /assets/img/sidebar-bg.jpg
+author:
+  email: nwkhteam@gmail.com
+  name: NoWhere Know-How
+collections:
+  featured_categories:
+    output: true
+    permalink: /:name/
+  featured_tags:
+    output: true
+    permalink: /tag-:name/
+  projects:
+    output: true
+    permalink: /projects/:path/
+compress_html:
+  clippings: all
+  comments:
+  - '<!-- '
+  - ' -->'
+  endings: all
+  ignore:
+    envs:
+    - development
+copyright: "\xC2\xA9 2020. All rights reserved."
+defaults:
+- scope:
+    path: hyde/
+  values:
+    accent_color: rgb(38,139,210)
+    accent_image:
+      background: rgb(32,32,32)
+      overlay: false
+- scope:
+    path: assets/
+  values:
+    sitemap: false
+- scope:
+    path: licenses/
+  values:
+    sitemap: false
+- scope:
+    type: projects
+  values:
+    seo:
+      type: WebPage
+- scope:
+    type: featured_categories
+  values:
+    seo:
+      type: WebPage
+- scope:
+    type: featured_tags
+  values:
+    seo:
+      type: WebPage
+description: 'This is blog for that serves new content developed by the NoWhere-Know-How
+  team.
+
+  '
+exclude:
+- .jekyll-cache
+- .sass-cache
+- vendor
+- Gemfile
+- Gemfile.lock
+font: Noto Sans, Helvetica, Arial, sans-serif
+font_code: Fira Code, Menlo, Monaco, Consolas, monospace;
+font_heading: Roboto Slab, Helvetica, Arial, sans-serif
+google_fonts: Roboto+Slab:700|Noto+Sans:400,400i,700,700i
+hydejack:
+  advertise: false
+  cookies_banner: true
+  dark_mode:
+    always: false
+    dynamic: true
+    icon: true
+  hide_dates: false
+  no_break_layout: true
+  no_drawer: false
+  no_inline_css: false
+  no_large_headings: false
+  no_mark_external: false
+  no_navbar: false
+  no_page_style: false
+  no_push_state: false
+  no_search: false
+  no_structured_data: false
+  no_theme_color: false
+  no_third_column: false
+  no_toc: false
+  offline:
+    cache_version: 7
+    enabled: false
+    precache_assets:
+    - /assets/img/swipe.svg
+  post_addons:
+  - comments
+  project_addons:
+  - about
+  - newsletter
+  - other
+  - comments
+  use_lsi: true
+include:
+- .well-known
+- LICENSE.md
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      description: 'A short ~160 character description of your post for search engines,
+        social media previews, etc.
+
+        '
+      image:
+        path: /assets/img/sidebar-bg.jpg
+      layout: post
+    posts:
+      description: 'A short ~160 character description of your post for search engines,
+        social media previews, etc.
+
+        '
+      image:
+        path: /assets/img/sidebar-bg.jpg
+      layout: post
+    projects:
+      description: 'A short ~160 character description of your post for search engines,
+        social media previews, etc.
+
+        '
+      image:
+        path: /assets/img/sidebar-bg.jpg
+      layout: project
+      links:
+      - title: Project Link
+        url: https://example.com
+keywords: []
+kramdown:
+  footnote_backlink: '&#x21a9;&#xfe0e;'
+  math_engine: katex
+  math_engine_opts: {}
+lang: en
+legal:
+- title: LICENSE
+  url: /LICENSE/
+- title: NOTICE
+  url: /NOTICE/
+- title: CHANGELOG
+  url: /CHANGELOG/
+logo: /assets/img/logo.png
+menu:
+- title: Tutorials
+  url: /tutorials/
+- title: Tapioca
+  url: /tapioca/
+- title: About
+  url: /about/
+optional_front_matter:
+  remove_originals: true
+paginate: 10
+paginate_path: /:num/
+permalink: /:categories/:year-:month-:day-:title/
+plugins:
+- jekyll-default-layout
+- jekyll-feed
+- jekyll-optional-front-matter
+- jekyll-paginate
+- jekyll-readme-index
+- jekyll-redirect-from
+- jekyll-relative-links
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-titles-from-headings
+- jekyll-include-cache
+- jekyll-last-modified-at
+readme_index:
+  remove_originals: true
+  with_frontmatter: true
+relative_links:
+  collections: true
+remote_theme: hydecorp/hydejack@v9.0.0-rc.6
+sass:
+  style: compressed
+tagline: NanoWattKiloHertz
+theme: jekyll-theme-hydejack
+theme_color: rgb(8,46,57)
+title: NoWhere-Know-How Games
+titles_from_headings:
+  collections: true
+  strip_title: true
