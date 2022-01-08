@@ -151,6 +151,8 @@ logo: /assets/img/logo.png
 menu:
 - title: Tapioca
   url: /tapioca/
+- title: metamochihorrorhouse
+  url: /metamochihorrorhouse/
 - title: About
   url: /about/
 optional_front_matter:
