@@ -182,7 +182,7 @@ remote_theme: hydecorp/hydejack@v9
 sass:
   style: compressed
 tagline: Early Access
-theme: hydecorp/hydejack@v9
+# theme: jekyll-theme-hydejack
 theme_color: rgb(8,46,57)
 title: HappyMaki
 titles_from_headings:
