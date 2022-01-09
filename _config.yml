@@ -153,6 +153,8 @@ menu:
   url: /tapioca/
 - title: Meta Mochi's Horror House
   url: /metamochihorrorhouse/
+- title: metamochihorrorhouse
+  url: /metamochihorrorhouse/
 - title: About
   url: /about/
 optional_front_matter:
@@ -182,7 +184,6 @@ remote_theme: hydecorp/hydejack@v9
 sass:
   style: compressed
 tagline: Early Access
-# theme: jekyll-theme-hydejack
 theme_color: rgb(8,46,57)
 title: HappyMaki
 titles_from_headings:
