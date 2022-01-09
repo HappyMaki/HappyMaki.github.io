@@ -1,5 +1,10 @@
 source "https://rubygems.org"
 
+rvm install ruby-2.0.0-p643
+rvm --default use 2.0.0
+ruby -v
+ruby 2.0.0p643 (2015-02-25 revision 49749) [x86_64-darwin14.1.0]
+
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
@@ -8,9 +13,9 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll"
+gem "jekyll", "~> 4.1"
 
-gem install "jekyll-theme-hydejack"
+gem "jekyll-theme-hydejack", "~> 9.0"
 
 # IMPORTANT: The followign gem is used to compile math formulas to 
 # KaTeX during site building.
