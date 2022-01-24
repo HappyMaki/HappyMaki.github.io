@@ -153,8 +153,6 @@ menu:
   url: /tapioca/
 - title: Meta Mochi's Horror House
   url: /metamochihorrorhouse/
-- title: metamochihorrorhouse
-  url: /metamochihorrorhouse/
 - title: About
   url: /about/
 optional_front_matter:
